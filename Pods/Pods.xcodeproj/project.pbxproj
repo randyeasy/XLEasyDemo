@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C226464F537B636C093A596C149A3D /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E0EF9470741957F265B3CA73813D2 /* TMMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A4D2B1DF8F4B769CBE72E8AD163BE37 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C81C850785EDAA7147589800E123F44 /* TMCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B88BEA41F5FAEF7E51A3FB7736B437E /* XLECache+XLEInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = C30854579CD3280188F568D9D0B3884C /* XLECache+XLEInternal.m */; };
+		2E4EB307D6639744A1E684EF3056D7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2F1D2A4B744386AF8B0B40256C2EC5E7 /* XLECommonCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FD62B699591A33318FF33191BDF091C2 /* XLECommonCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CD9BC46C9276DC407344EECC661CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4135832555DD62DB1FA13B614211B464 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E24B2D8421A7F292251A267C272A8DFC /* TMDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A4DB5F4A7B773337D9DDF69F25C2D6F /* XLECache+XLEInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ECC9B21CDDB0D48A5E523B5EA497A3 /* XLECache+XLEInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50B04B52DABE85CF5E61FB0313F0CF46 /* XLEasyCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ED191AC977DF374161CDF5A88D3032 /* XLEasyCache-dummy.m */; };
+		5471475D21AA7DF4661214F3A5176F48 /* XLEUserCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A97EDB379A1E473892F5863ECB8AA9A /* XLEUserCache.m */; };
+		691B95BB5EF649A9385C2DF78ECAC67F /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B747A10F14017EFAA9BB252FD0BF86 /* TMMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C7C55420C17501B0DECE1437A66116F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		710A4A128CE81E490856E77BC6BA6CDB /* XLECache+XLEBaseType.h in Headers */ = {isa = PBXBuildFile; fileRef = 039CFD82B6D9CB90FD35CCD4E7AC2029 /* XLECache+XLEBaseType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E0E3C61C386FE317E9979DAC825D66 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B025655BB034BC250B57BFF4749CC3 /* TMCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA6A541B5B7E2D7CFB2D96D0E3A4A46B /* XLEUserCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 465E9DDDFE786A25D03699346E26E790 /* XLEUserCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBE9F7D17E0C1695EE2FA4A101585AF /* XLECache+XLEBaseType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3FBA5AFEEA194B8B48264078FA1E3B /* XLECache+XLEBaseType.m */; };
+		D32981790C86FCB3B6A700146D675EF4 /* XLEasyCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1F9573F55C20D340F75DBC5C6165A6 /* XLEasyCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41A56CCD12EAC9C1DACED93BCF95A8F /* TMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FADF6BDEDE823FF9356F937BEDEBC8 /* TMCache-dummy.m */; };
+		D8730C99518E4B599D3E39896A227DDD /* XLECache.h in Headers */ = {isa = PBXBuildFile; fileRef = 853125DBABF412FC76B1BE403BED27E9 /* XLECache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8AEC11C32CA0B9C379B77774E01B4F1 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		DE4B82D6189CAC40BEC2FC5E31AAA9E4 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE935CBCB3C2503F0EDB62350D2A427 /* TMDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09DF1BC05974AE741CB6F566A835D2E /* XLECommonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A44806B477BF87CD878ADD13352D5A /* XLECommonCache.m */; };
+		FA2A63EBF510A0ACAEB9F14A4C5DB421 /* XLECache.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DF4910F2A51A1B790617F72E216C3F /* XLECache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64ED9F7E5283535BA0EC226095CDDA35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1EDCB9EEA84EC509C9C6428475851C;
+			remoteInfo = TMCache;
+		};
+		94D3B37F1BFF0A2358464864C170080E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C592824E02C597961F45B351DB61B2E;
+			remoteInfo = XLEasyCache;
+		};
+		C6B5EE1CBF0B582721C799E705D75959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1EDCB9EEA84EC509C9C6428475851C;
+			remoteInfo = TMCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039CFD82B6D9CB90FD35CCD4E7AC2029 /* XLECache+XLEBaseType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XLECache+XLEBaseType.h"; path = "Pod/Classes/XLECache+XLEBaseType.h"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		11B747A10F14017EFAA9BB252FD0BF86 /* TMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
+		16EA659FE8F474156CBB859780DE737B /* libTMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2137FA7DD9361BEAABBC6356B212750D /* libXLEasyCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXLEasyCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		34ECC9B21CDDB0D48A5E523B5EA497A3 /* XLECache+XLEInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XLECache+XLEInternal.h"; path = "Pod/Classes/XLECache+XLEInternal.h"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39DF4910F2A51A1B790617F72E216C3F /* XLECache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLECache.m; path = Pod/Classes/XLECache.m; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FBCBF6FB4C90F4607819CDFFA454E47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		465E9DDDFE786A25D03699346E26E790 /* XLEUserCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLEUserCache.h; path = Pod/Classes/XLEUserCache.h; sourceTree = "<group>"; };
+		4A97EDB379A1E473892F5863ECB8AA9A /* XLEUserCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLEUserCache.m; path = Pod/Classes/XLEUserCache.m; sourceTree = "<group>"; };
+		4E3FBA5AFEEA194B8B48264078FA1E3B /* XLECache+XLEBaseType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XLECache+XLEBaseType.m"; path = "Pod/Classes/XLECache+XLEBaseType.m"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5C81C850785EDAA7147589800E123F44 /* TMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = TMCache/TMCache.h; sourceTree = "<group>"; };
+		67ED191AC977DF374161CDF5A88D3032 /* XLEasyCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLEasyCache-dummy.m"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		84B025655BB034BC250B57BFF4749CC3 /* TMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = TMCache/TMCache.m; sourceTree = "<group>"; };
+		853125DBABF412FC76B1BE403BED27E9 /* XLECache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLECache.h; path = Pod/Classes/XLECache.h; sourceTree = "<group>"; };
+		88A44806B477BF87CD878ADD13352D5A /* XLECommonCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLECommonCache.m; path = Pod/Classes/XLECommonCache.m; sourceTree = "<group>"; };
+		8E2E0EF9470741957F265B3CA73813D2 /* TMMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
+		9054DC5A7255BDDF38378A931013D95B /* TMCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMCache.xcconfig; sourceTree = "<group>"; };
+		9132B118E512F38C851F72642EDE60B5 /* XLEasyCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLEasyCache.xcconfig; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		99A29C9C583ED987B03DD6FDC5CCA25D /* TMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMCache-prefix.pch"; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2BCD156378EB547D3E4CF35DE09947F /* XLEasyCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLEasyCache-prefix.pch"; sourceTree = "<group>"; };
+		C30854579CD3280188F568D9D0B3884C /* XLECache+XLEInternal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XLECache+XLEInternal.m"; path = "Pod/Classes/XLECache+XLEInternal.m"; sourceTree = "<group>"; };
+		C5FADF6BDEDE823FF9356F937BEDEBC8 /* TMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMCache-dummy.m"; sourceTree = "<group>"; };
+		CFE935CBCB3C2503F0EDB62350D2A427 /* TMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = TMCache/TMDiskCache.h; sourceTree = "<group>"; };
+		E24B2D8421A7F292251A267C272A8DFC /* TMDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMDiskCache.m; path = TMCache/TMDiskCache.m; sourceTree = "<group>"; };
+		FC1F9573F55C20D340F75DBC5C6165A6 /* XLEasyCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLEasyCache.h; path = Pod/Classes/XLEasyCache.h; sourceTree = "<group>"; };
+		FD62B699591A33318FF33191BDF091C2 /* XLECommonCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLECommonCache.h; path = Pod/Classes/XLECommonCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85BA60F81717BCC4B4FF938DB5DE1F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4EB307D6639744A1E684EF3056D7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64672973C1C0ECCDA017364F9245722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7C55420C17501B0DECE1437A66116F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C8F6A112C6163DD11326D4AA6F00F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD9BC46C9276DC407344EECC661CBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D662FE2284C2BCF0EA1A2F85C1D8782 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				5C81C850785EDAA7147589800E123F44 /* TMCache.h */,
+				84B025655BB034BC250B57BFF4749CC3 /* TMCache.m */,
+				CFE935CBCB3C2503F0EDB62350D2A427 /* TMDiskCache.h */,
+				E24B2D8421A7F292251A267C272A8DFC /* TMDiskCache.m */,
+				11B747A10F14017EFAA9BB252FD0BF86 /* TMMemoryCache.h */,
+				8E2E0EF9470741957F265B3CA73813D2 /* TMMemoryCache.m */,
+				88CFE2333CE749D9D4596C691C65F453 /* Support Files */,
+			);
+			path = TMCache;
+			sourceTree = "<group>";
+		};
+		58180C9A339211C9D214D2D33EB9592B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9132B118E512F38C851F72642EDE60B5 /* XLEasyCache.xcconfig */,
+				67ED191AC977DF374161CDF5A88D3032 /* XLEasyCache-dummy.m */,
+				C2BCD156378EB547D3E4CF35DE09947F /* XLEasyCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLEasyCache";
+			sourceTree = "<group>";
+		};
+		6DEA7B7374637AC4F08FD5704D26EBC4 /* XLEasyCache */ = {
+			isa = PBXGroup;
+			children = (
+				FC1F9573F55C20D340F75DBC5C6165A6 /* XLEasyCache.h */,
+				853125DBABF412FC76B1BE403BED27E9 /* XLECache.h */,
+				39DF4910F2A51A1B790617F72E216C3F /* XLECache.m */,
+				039CFD82B6D9CB90FD35CCD4E7AC2029 /* XLECache+XLEBaseType.h */,
+				4E3FBA5AFEEA194B8B48264078FA1E3B /* XLECache+XLEBaseType.m */,
+				34ECC9B21CDDB0D48A5E523B5EA497A3 /* XLECache+XLEInternal.h */,
+				C30854579CD3280188F568D9D0B3884C /* XLECache+XLEInternal.m */,
+				FD62B699591A33318FF33191BDF091C2 /* XLECommonCache.h */,
+				88A44806B477BF87CD878ADD13352D5A /* XLECommonCache.m */,
+				465E9DDDFE786A25D03699346E26E790 /* XLEUserCache.h */,
+				4A97EDB379A1E473892F5863ECB8AA9A /* XLEUserCache.m */,
+				58180C9A339211C9D214D2D33EB9592B /* Support Files */,
+			);
+			path = XLEasyCache;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9D9EE95E04AD823A2CEBAB988DD22CC9 /* Pods */,
+				B36E26745530AB5963929700057F9895 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88CFE2333CE749D9D4596C691C65F453 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9054DC5A7255BDDF38378A931013D95B /* TMCache.xcconfig */,
+				C5FADF6BDEDE823FF9356F937BEDEBC8 /* TMCache-dummy.m */,
+				99A29C9C583ED987B03DD6FDC5CCA25D /* TMCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMCache";
+			sourceTree = "<group>";
+		};
+		9D9EE95E04AD823A2CEBAB988DD22CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D662FE2284C2BCF0EA1A2F85C1D8782 /* TMCache */,
+				6DEA7B7374637AC4F08FD5704D26EBC4 /* XLEasyCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B36E26745530AB5963929700057F9895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCBF6FB4C90F4607819CDFFA454E47 /* libPods.a */,
+				16EA659FE8F474156CBB859780DE737B /* libTMCache.a */,
+				2137FA7DD9361BEAABBC6356B212750D /* libXLEasyCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A69787BC72004F0424E2CEBC98933DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4D2B1DF8F4B769CBE72E8AD163BE37 /* TMCache.h in Headers */,
+				DE4B82D6189CAC40BEC2FC5E31AAA9E4 /* TMDiskCache.h in Headers */,
+				691B95BB5EF649A9385C2DF78ECAC67F /* TMMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9F86618F5602F3BBE9DE16A73E9BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32981790C86FCB3B6A700146D675EF4 /* XLEasyCache.h in Headers */,
+				710A4A128CE81E490856E77BC6BA6CDB /* XLECache+XLEBaseType.h in Headers */,
+				4A4DB5F4A7B773337D9DDF69F25C2D6F /* XLECache+XLEInternal.h in Headers */,
+				D8730C99518E4B599D3E39896A227DDD /* XLECache.h in Headers */,
+				2F1D2A4B744386AF8B0B40256C2EC5E7 /* XLECommonCache.h in Headers */,
+				BA6A541B5B7E2D7CFB2D96D0E3A4A46B /* XLEUserCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C592824E02C597961F45B351DB61B2E /* XLEasyCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373F65D023FF1D6099F1B174C112F6A3 /* Build configuration list for PBXNativeTarget "XLEasyCache" */;
+			buildPhases = (
+				63AFECD53E16DAE9840A609262F1A168 /* Sources */,
+				A64672973C1C0ECCDA017364F9245722 /* Frameworks */,
+				9A9F86618F5602F3BBE9DE16A73E9BE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5AD739FAAA68EE866EDFE99A106D90 /* PBXTargetDependency */,
+			);
+			name = XLEasyCache;
+			productName = XLEasyCache;
+			productReference = 2137FA7DD9361BEAABBC6356B212750D /* libXLEasyCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F1EDCB9EEA84EC509C9C6428475851C /* TMCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C292F826F6F371659250ADB7F4212159 /* Build configuration list for PBXNativeTarget "TMCache" */;
+			buildPhases = (
+				24F45A08BCBD518C953271BC7EBA0EA9 /* Sources */,
+				85BA60F81717BCC4B4FF938DB5DE1F21 /* Frameworks */,
+				4A69787BC72004F0424E2CEBC98933DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMCache;
+			productName = TMCache;
+			productReference = 16EA659FE8F474156CBB859780DE737B /* libTMCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		761E62C0BE94128359F73516AD207508 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E5DD670328D535963CDF8672839260 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E7072E736DECECEA32FDFFB49CC048C9 /* Sources */,
+				E7C8F6A112C6163DD11326D4AA6F00F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDA70E1643FD8800D21C7CC42C43C8E /* PBXTargetDependency */,
+				58A7557C9C51B80EE21B67ACB074AB29 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3FBCBF6FB4C90F4607819CDFFA454E47 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B36E26745530AB5963929700057F9895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761E62C0BE94128359F73516AD207508 /* Pods */,
+				6F1EDCB9EEA84EC509C9C6428475851C /* TMCache */,
+				2C592824E02C597961F45B351DB61B2E /* XLEasyCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F45A08BCBD518C953271BC7EBA0EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41A56CCD12EAC9C1DACED93BCF95A8F /* TMCache-dummy.m in Sources */,
+				91E0E3C61C386FE317E9979DAC825D66 /* TMCache.m in Sources */,
+				4135832555DD62DB1FA13B614211B464 /* TMDiskCache.m in Sources */,
+				04C226464F537B636C093A596C149A3D /* TMMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AFECD53E16DAE9840A609262F1A168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B04B52DABE85CF5E61FB0313F0CF46 /* XLEasyCache-dummy.m in Sources */,
+				CEBE9F7D17E0C1695EE2FA4A101585AF /* XLECache+XLEBaseType.m in Sources */,
+				2B88BEA41F5FAEF7E51A3FB7736B437E /* XLECache+XLEInternal.m in Sources */,
+				FA2A63EBF510A0ACAEB9F14A4C5DB421 /* XLECache.m in Sources */,
+				F09DF1BC05974AE741CB6F566A835D2E /* XLECommonCache.m in Sources */,
+				5471475D21AA7DF4661214F3A5176F48 /* XLEUserCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7072E736DECECEA32FDFFB49CC048C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AEC11C32CA0B9C379B77774E01B4F1 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58A7557C9C51B80EE21B67ACB074AB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLEasyCache;
+			target = 2C592824E02C597961F45B351DB61B2E /* XLEasyCache */;
+			targetProxy = 94D3B37F1BFF0A2358464864C170080E /* PBXContainerItemProxy */;
+		};
+		9EDA70E1643FD8800D21C7CC42C43C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMCache;
+			target = 6F1EDCB9EEA84EC509C9C6428475851C /* TMCache */;
+			targetProxy = 64ED9F7E5283535BA0EC226095CDDA35 /* PBXContainerItemProxy */;
+		};
+		AF5AD739FAAA68EE866EDFE99A106D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMCache;
+			target = 6F1EDCB9EEA84EC509C9C6428475851C /* TMCache */;
+			targetProxy = C6B5EE1CBF0B582721C799E705D75959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C7942973B692D7FBE8CD3BBA271DB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9054DC5A7255BDDF38378A931013D95B /* TMCache.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMCache/TMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		619D4A949A79DBA08B651AA78F86E500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A6693AACAE8EBF9FEF689F77406E5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9132B118E512F38C851F72642EDE60B5 /* XLEasyCache.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLEasyCache/XLEasyCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A42093BC61EA7A62218B61048C90E8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9132B118E512F38C851F72642EDE60B5 /* XLEasyCache.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLEasyCache/XLEasyCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCAEA1BF85B27E08467CD6E969D03D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CC9611AE39EAB9EEE16BCA29B53E969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9054DC5A7255BDDF38378A931013D95B /* TMCache.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMCache/TMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373F65D023FF1D6099F1B174C112F6A3 /* Build configuration list for PBXNativeTarget "XLEasyCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6693AACAE8EBF9FEF689F77406E5C5 /* Debug */,
+				A42093BC61EA7A62218B61048C90E8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E5DD670328D535963CDF8672839260 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619D4A949A79DBA08B651AA78F86E500 /* Debug */,
+				BCAEA1BF85B27E08467CD6E969D03D12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C292F826F6F371659250ADB7F4212159 /* Build configuration list for PBXNativeTarget "TMCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9611AE39EAB9EEE16BCA29B53E969D /* Debug */,
+				5C7942973B692D7FBE8CD3BBA271DB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
