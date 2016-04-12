@@ -67,6 +67,7 @@ UITableViewDelegate
     }
     TXEDemoItem *demoItem = self.items[indexPath.row];
     cell.detailTextLabel.text = demoItem.desc;
+    cell.detailTextLabel.numberOfLines = 0;
     cell.textLabel.text = demoItem.name;
     return cell;
 }
@@ -87,7 +88,7 @@ UITableViewDelegate
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        _tableView.rowHeight = 50;
+        _tableView.rowHeight = 65;
     }
     return _tableView;
 }

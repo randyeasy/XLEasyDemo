@@ -51,7 +51,18 @@
     static id sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] initWithName:nil rootPath:[XLECache docRootDir]];
+        sharedInstance = [[self alloc] initWithName:nil rootPath:[XLECache libraryRootDir]];
+    });
+    return sharedInstance;
+}
+
+//永久保存、不备份
++ (XLECommonCache *)sharedForeverCache;
+{
+    static id sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[self alloc] initWithName:nil rootPath:[XLECache foreverRootDir]];
     });
     return sharedInstance;
 }
@@ -72,8 +83,6 @@
 
 + (void)removeAllObjects;
 {
-    [[XLECommonCache sharedCache] removeAllObjects];
-    [[XLECommonCache sharedTempCache] removeAllObjects];
     for (XLECommonCache *oneCache in [XLECommonCache cacheList]) {
         [oneCache removeAllObjects];
     }

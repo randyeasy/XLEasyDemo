@@ -16,6 +16,17 @@
 		256DB4CA1C4FA38D00D7961F /* XLEasyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DB4C91C4FA38D00D7961F /* XLEasyDemoTests.m */; };
 		256DB4D91C4FAD6500D7961F /* TXEDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DB4D81C4FAD6500D7961F /* TXEDemoViewController.m */; };
 		256DB4DE1C4FB4FD00D7961F /* TXEDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DB4DD1C4FB4FD00D7961F /* TXEDateViewController.m */; };
+		25807B0E1CB3C21D0024E337 /* XLERunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B0D1CB3C21D0024E337 /* XLERunTimeVC.m */; };
+		25807B111CB3C2320024E337 /* XLERunTimeLoadTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B101CB3C2320024E337 /* XLERunTimeLoadTest1.m */; };
+		25807B141CB3C23D0024E337 /* XLERunTimeLoadTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B131CB3C23D0024E337 /* XLERunTimeLoadTest2.m */; };
+		25807B171CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B161CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.m */; };
+		25807B1A1CB3C3390024E337 /* XLERunTimeLoadTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B191CB3C3390024E337 /* XLERunTimeLoadTest3.m */; };
+		25807B1D1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B1C1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.m */; };
+		25807B201CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25807B1F1CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.m */; };
+		258701581C92D3F6005D7EB3 /* XLEMemoryTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 258701571C92D3F6005D7EB3 /* XLEMemoryTestVC.m */; };
+		2587015B1C92D4B0005D7EB3 /* XLEMemoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587015A1C92D4B0005D7EB3 /* XLEMemoryItem.m */; };
+		2587015E1C92D4D5005D7EB3 /* XLEMemoryRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587015D1C92D4D5005D7EB3 /* XLEMemoryRef.m */; };
+		258ACE211CBD15980047FA15 /* XLERACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258ACE201CBD15980047FA15 /* XLERACViewController.m */; };
 		8E791EC39789E6F112332DCC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC80962D723F4328D44293D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +59,28 @@
 		256DB4D81C4FAD6500D7961F /* TXEDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXEDemoViewController.m; sourceTree = "<group>"; };
 		256DB4DC1C4FB4FD00D7961F /* TXEDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXEDateViewController.h; sourceTree = "<group>"; };
 		256DB4DD1C4FB4FD00D7961F /* TXEDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXEDateViewController.m; sourceTree = "<group>"; };
+		25807B0C1CB3C21D0024E337 /* XLERunTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLERunTimeVC.h; sourceTree = "<group>"; };
+		25807B0D1CB3C21D0024E337 /* XLERunTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLERunTimeVC.m; sourceTree = "<group>"; };
+		25807B0F1CB3C2320024E337 /* XLERunTimeLoadTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLERunTimeLoadTest1.h; sourceTree = "<group>"; };
+		25807B101CB3C2320024E337 /* XLERunTimeLoadTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLERunTimeLoadTest1.m; sourceTree = "<group>"; };
+		25807B121CB3C23D0024E337 /* XLERunTimeLoadTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLERunTimeLoadTest2.h; sourceTree = "<group>"; };
+		25807B131CB3C23D0024E337 /* XLERunTimeLoadTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLERunTimeLoadTest2.m; sourceTree = "<group>"; };
+		25807B151CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLERunTimeLoadTest1+XLELoad.h"; sourceTree = "<group>"; };
+		25807B161CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XLERunTimeLoadTest1+XLELoad.m"; sourceTree = "<group>"; };
+		25807B181CB3C3390024E337 /* XLERunTimeLoadTest3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLERunTimeLoadTest3.h; sourceTree = "<group>"; };
+		25807B191CB3C3390024E337 /* XLERunTimeLoadTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLERunTimeLoadTest3.m; sourceTree = "<group>"; };
+		25807B1B1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLERunTimeLoadTest2+LPLoad2.h"; sourceTree = "<group>"; };
+		25807B1C1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XLERunTimeLoadTest2+LPLoad2.m"; sourceTree = "<group>"; };
+		25807B1E1CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLERunTimeLoadTest3+XLELoad3.h"; sourceTree = "<group>"; };
+		25807B1F1CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XLERunTimeLoadTest3+XLELoad3.m"; sourceTree = "<group>"; };
+		258701561C92D3F6005D7EB3 /* XLEMemoryTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLEMemoryTestVC.h; sourceTree = "<group>"; };
+		258701571C92D3F6005D7EB3 /* XLEMemoryTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLEMemoryTestVC.m; sourceTree = "<group>"; };
+		258701591C92D4B0005D7EB3 /* XLEMemoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLEMemoryItem.h; sourceTree = "<group>"; };
+		2587015A1C92D4B0005D7EB3 /* XLEMemoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLEMemoryItem.m; sourceTree = "<group>"; };
+		2587015C1C92D4D5005D7EB3 /* XLEMemoryRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLEMemoryRef.h; sourceTree = "<group>"; };
+		2587015D1C92D4D5005D7EB3 /* XLEMemoryRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLEMemoryRef.m; sourceTree = "<group>"; };
+		258ACE1F1CBD15980047FA15 /* XLERACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLERACViewController.h; sourceTree = "<group>"; };
+		258ACE201CBD15980047FA15 /* XLERACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLERACViewController.m; sourceTree = "<group>"; };
 		82738AAF20FF6B7D49D92CAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CBC80962D723F4328D44293D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +135,8 @@
 		256DB4AE1C4FA38D00D7961F /* XLEasyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				258ACE1E1CBD15820047FA15 /* RAC */,
+				25807B0B1CB3C1F70024E337 /* runtime */,
 				256DB4DB1C4FB4E900D7961F /* test */,
 				256DB4DA1C4FB4D500D7961F /* features */,
 				256DB4B21C4FA38D00D7961F /* AppDelegate.h */,
@@ -148,8 +183,44 @@
 			children = (
 				256DB4DC1C4FB4FD00D7961F /* TXEDateViewController.h */,
 				256DB4DD1C4FB4FD00D7961F /* TXEDateViewController.m */,
+				258701561C92D3F6005D7EB3 /* XLEMemoryTestVC.h */,
+				258701571C92D3F6005D7EB3 /* XLEMemoryTestVC.m */,
+				258701591C92D4B0005D7EB3 /* XLEMemoryItem.h */,
+				2587015A1C92D4B0005D7EB3 /* XLEMemoryItem.m */,
+				2587015C1C92D4D5005D7EB3 /* XLEMemoryRef.h */,
+				2587015D1C92D4D5005D7EB3 /* XLEMemoryRef.m */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		25807B0B1CB3C1F70024E337 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				25807B0C1CB3C21D0024E337 /* XLERunTimeVC.h */,
+				25807B0D1CB3C21D0024E337 /* XLERunTimeVC.m */,
+				25807B0F1CB3C2320024E337 /* XLERunTimeLoadTest1.h */,
+				25807B101CB3C2320024E337 /* XLERunTimeLoadTest1.m */,
+				25807B121CB3C23D0024E337 /* XLERunTimeLoadTest2.h */,
+				25807B131CB3C23D0024E337 /* XLERunTimeLoadTest2.m */,
+				25807B151CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.h */,
+				25807B161CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.m */,
+				25807B181CB3C3390024E337 /* XLERunTimeLoadTest3.h */,
+				25807B191CB3C3390024E337 /* XLERunTimeLoadTest3.m */,
+				25807B1B1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.h */,
+				25807B1C1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.m */,
+				25807B1E1CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.h */,
+				25807B1F1CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		258ACE1E1CBD15820047FA15 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				258ACE1F1CBD15980047FA15 /* XLERACViewController.h */,
+				258ACE201CBD15980047FA15 /* XLERACViewController.m */,
+			);
+			path = RAC;
 			sourceTree = "<group>";
 		};
 		97CE5B46D418D5CA40224D97 /* Pods */ = {
@@ -312,11 +383,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2587015E1C92D4D5005D7EB3 /* XLEMemoryRef.m in Sources */,
+				25807B0E1CB3C21D0024E337 /* XLERunTimeVC.m in Sources */,
 				256DB4B71C4FA38D00D7961F /* ViewController.m in Sources */,
 				256DB4D91C4FAD6500D7961F /* TXEDemoViewController.m in Sources */,
 				256DB4B41C4FA38D00D7961F /* AppDelegate.m in Sources */,
+				25807B1A1CB3C3390024E337 /* XLERunTimeLoadTest3.m in Sources */,
+				25807B1D1CB3C3570024E337 /* XLERunTimeLoadTest2+LPLoad2.m in Sources */,
 				256DB4B11C4FA38D00D7961F /* main.m in Sources */,
+				25807B111CB3C2320024E337 /* XLERunTimeLoadTest1.m in Sources */,
 				256DB4DE1C4FB4FD00D7961F /* TXEDateViewController.m in Sources */,
+				25807B201CB3C37D0024E337 /* XLERunTimeLoadTest3+XLELoad3.m in Sources */,
+				258701581C92D3F6005D7EB3 /* XLEMemoryTestVC.m in Sources */,
+				2587015B1C92D4B0005D7EB3 /* XLEMemoryItem.m in Sources */,
+				25807B171CB3C2D00024E337 /* XLERunTimeLoadTest1+XLELoad.m in Sources */,
+				25807B141CB3C23D0024E337 /* XLERunTimeLoadTest2.m in Sources */,
+				258ACE211CBD15980047FA15 /* XLERACViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

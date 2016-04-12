@@ -8,15 +8,28 @@
 
 #import "XLECache+XLEInternal.h"
 
-NSString *const XLECache_Root_Dir_Name = @"XLECacheRoot";
-
+NSString *const XLECache_Root_Dir_Name = @"com.easy.cache";
+NSString *const XLECache_Forover_Dir_Name = @"com.easy.cache.forever";
 
 @implementation XLECache (XLEInternal)
 @dynamic tmCache;
+
++ (void)initialize{
+    NSString *path = [self foreverRootDir];
+    [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:nil];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    NSError *error;
+    [url setResourceValue:[NSNumber numberWithBool:YES] forKey:NSURLIsExcludedFromBackupKey error:&error];
+    
+    [[NSFileManager defaultManager] createDirectoryAtPath:[self tempRootDir] withIntermediateDirectories:YES attributes:nil error:nil];
+    [[NSFileManager defaultManager] createDirectoryAtPath:[self cacheRootDir] withIntermediateDirectories:YES attributes:nil error:nil];
+    [[NSFileManager defaultManager] createDirectoryAtPath:[self libraryRootDir] withIntermediateDirectories:YES attributes:nil error:nil];
+}
+
 #pragma mark - internal
 
-+ (NSString *)pathForDocument {
-    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
++ (NSString *)pathForLibrary {
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES).firstObject;
     return path;
 }
 
@@ -30,9 +43,9 @@ NSString *const XLECache_Root_Dir_Name = @"XLECacheRoot";
     return path;
 }
 
-+ (NSString *)docRootDir
++ (NSString *)libraryRootDir
 {
-    NSString *docDir = [[self pathForDocument] stringByAppendingPathComponent:XLECache_Root_Dir_Name];
+    NSString *docDir = [[self pathForLibrary] stringByAppendingPathComponent:XLECache_Root_Dir_Name];
     return docDir;
 }
 
@@ -44,6 +57,12 @@ NSString *const XLECache_Root_Dir_Name = @"XLECacheRoot";
 + (NSString *)cacheRootDir
 {
     return [[self pathForCaches] stringByAppendingPathComponent:XLECache_Root_Dir_Name];
+}
+
++ (NSString *)foreverRootDir
+{
+    NSString *path = [[self pathForLibrary] stringByAppendingPathComponent:XLECache_Forover_Dir_Name];
+    return path;
 }
 
 @end

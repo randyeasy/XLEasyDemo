@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CFBA116C85DD32C365F9F650'
+               BlueprintIdentifier = '45576BABE66438E3DAEA18F6'
                BlueprintName = 'XLEasyCache'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libXLEasyCache.a'>

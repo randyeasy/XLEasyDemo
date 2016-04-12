@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TMCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2C592824E02C597961F45B351DB61B2E</key>
+		<key>165C90ADBA69CCF6CB2275F3F35E4E04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F1EDCB9EEA84EC509C9C6428475851C</key>
+		<key>65CCE55571FC5E79DDF1B51C8B442D66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>761E62C0BE94128359F73516AD207508</key>
+		<key>77757349E61B8F8B16A06D2CC45FBC54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E50951CF7406055A841111D7F987D74C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
